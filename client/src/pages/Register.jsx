@@ -24,7 +24,7 @@ export default function Register() {
 
     return (
         <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen px-4 bg-gradient-to-br from-[#1f0c2f] to-[#2a0c4e] text-white font-sans">
-            {/* Left Side Image & Text */}
+            
             <div className="text-center lg:text-left lg:w-1/2 space-y-6 mb-12 lg:mb-0 px-6">
                 <img
                     src={Hero}
@@ -39,14 +39,14 @@ export default function Register() {
                 </p>
             </div>
 
-            {/* Register Form */}
+           
             <form
                 onSubmit={handleSubmit}
                 className="bg-white/5 backdrop-blur-md border border-purple-500 shadow-glowPrimary px-8 py-10 rounded-2xl w-full max-w-md animate-fadeUp"
             >
                 <h2 className="text-2xl font-bold text-center mb-6 text-purple-100">Register</h2>
 
-                {/* Username Field */}
+                
                 <div className="flex items-center border border-purple-300 rounded-lg px-4 py-3 mb-4 bg-white/10 focus-within:ring-2 focus-within:ring-purple-500 transition">
                     <User className="text-purple-300 mr-3" size={20} />
                     <input
@@ -58,7 +58,7 @@ export default function Register() {
                     />
                 </div>
 
-                {/* Password Field */}
+                
                 <div className="flex items-center border border-purple-300 rounded-lg px-4 py-3 mb-6 bg-white/10 focus-within:ring-2 focus-within:ring-purple-500 transition">
                     <Lock className="text-purple-300 mr-3" size={20} />
                     <input
@@ -70,7 +70,7 @@ export default function Register() {
                     />
                 </div>
 
-                {/* Register Button */}
+                
                 <button
                     type="submit"
                     className="w-full bg-gradient-to-tr from-purple-600 to-fuchsia-600 text-white font-semibold py-3 rounded-lg hover:scale-105 shadow-glowPrimary transition-all"
@@ -78,7 +78,7 @@ export default function Register() {
                     Create Account
                 </button>
 
-                {/* Login Redirect */}
+                
                 <p className="text-center mt-6 text-sm text-purple-300">
                     Already have an account?{' '}
                     <span
