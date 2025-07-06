@@ -93,7 +93,7 @@ export default function Insights() {
                     Mood Insights
                 </h1>
 
-                {/* Filter dropdown */}
+                
                 <div className="mb-8">
                     <label className="mr-3 font-medium text-purple-200">Filter by:</label>
                     <select
@@ -108,7 +108,7 @@ export default function Insights() {
                     </select>
                 </div>
 
-                {/* Line Chart */}
+                
                 <div className="bg-white/5 backdrop-blur-md border border-purple-500 rounded-2xl px-6 py-8 shadow-[0_0_20px_rgba(192,132,252,0.2)] hover:shadow-[0_0_30px_rgba(192,132,252,0.4)] transition mb-12">
                     <h2 className="text-2xl font-semibold mb-4 text-purple-100">Mood Trend</h2>
                     {chartData.length === 0 ? (
@@ -138,7 +138,7 @@ export default function Insights() {
                     )}
                 </div>
 
-                {/* Pie Chart */}
+                
                 <div className="bg-white/5 backdrop-blur-md border border-purple-500 rounded-2xl px-6 py-8 shadow-[0_0_20px_rgba(192,132,252,0.2)] hover:shadow-[0_0_30px_rgba(192,132,252,0.4)] transition mb-12">
                     <h2 className="text-2xl font-semibold mb-4 text-purple-100">Mood Distribution</h2>
                     {pieData.length === 0 ? (
@@ -157,7 +157,7 @@ export default function Insights() {
                     )}
                 </div>
 
-                {/* Bar Chart */}
+                
                 <div className="bg-white/5 backdrop-blur-md border border-purple-500 rounded-2xl px-6 py-8 shadow-[0_0_20px_rgba(192,132,252,0.2)] hover:shadow-[0_0_30px_rgba(192,132,252,0.4)] transition">
                     <h2 className="text-2xl font-semibold mb-4 text-purple-100">Weekly Mood Averages</h2>
                     {barData.length === 0 ? (
